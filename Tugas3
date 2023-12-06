@@ -4,7 +4,7 @@ public class Main {
         int tinggi = 20;
         int i, j, k;
         
-        // Membuat loop untuk setiap baris segitiga
+        // Membuat loop untuk setiap baris membentuk segitiga
         for (i = 0; i < tinggi; i++) {
            
             // Membuat loop untuk mencetak karakter *
@@ -12,17 +12,18 @@ public class Main {
            if (i < tinggi/2){
            for ( j = 0 ; j <= i; j++){
             
-            System.out.print(" *");
+             System.out.print(" *");
             
             }
-           // Mencetak baris baru
-            System.out.println();
+             // Mencetak baris baru
+             System.out.println();
+
             }else{
-         for ( k = 0 ; k < tinggi - i; k++){
-            //System.out.print(" ");
-            System.out.print(" *");
+            for ( k = 0 ; k < tinggi - i; k++){
+            
+             System.out.print(" *");
             }
-            System.out.println();
+             System.out.println();
             }
         }
       
